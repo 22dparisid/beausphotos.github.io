@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Information</title>
+        <meta charset="utf-8">
+        <link href="m1css.css" rel="stylesheet">
+    </head>
+<body>
+<div id="wrapper">
+    <header> 
+        <h1>Beaus Photos</h1>
+    </header>
+<div id="navid">
+    <nav> 
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">Gallery</a></li>
+            <li><a href="page3.html">Styles</a></li>
+            <li><a href="page4.html">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+    <main>
+        <h3>Contact Us Today!</h3>
+            <p>
+                If you have any questions or comments about the photos or Beau, please let us know!
+            </p>
+        <form method="post"
+        action="https://webdevbasics.net/scripts/demo.php">
+            <label for="myFname">* First Name:</label>
+                <input type="text" name="myFname" id="myFname" required="required">
+            <label for="myLname">* Last Name:</label>
+                <input type="text" name="myLname" id="myLname" required="required">
+            <label for="email">* E-mail Address: </label>
+                <input type="email" name="email" id="email" required="required">
+            <label for="mobile">Phone Number: </label>
+                <input type="tel" name="mobile" id="mobile" maxlength="12">
+            <label for="myComments"> Comments: </label>
+                <textarea name="myComments" id="myComments" rows="2" cols="30"> </textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+<footer>
+    <small><i>
+        Copyright &copy; 2022 Beaus Photos<br>
+        <a href="mailto:22bmason@go.dsdmail.net">
+            22bmason@go.dsdmail.net
+        </a> 
+    </i></small>
+</footer>
+</div>
+</body> 
+</html>
