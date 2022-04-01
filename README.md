@@ -1,1 +1,1 @@
-# 22dparisid.github.io
+# 22dparisid/beausphotos.github.io
